@@ -1,6 +1,7 @@
 {
   "extends": "next/core-web-vitals",
   "rules": {
-    "no-console": "off" // Disables the rule that warns about console.log statements
+    "no-console": "off", // Disables the rule that warns about console.log statements
+    "@next/next/no-img-element": "off"
   }
 }

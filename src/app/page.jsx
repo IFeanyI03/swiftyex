@@ -127,7 +127,7 @@ export default function Home() {
                                 Start your free trial now and unlock a world of
                                 unlimited transactions, intelligent features,
                                 and seamless exchanges. Join us on the path to
-                                smarter, more profitable trading. Let's make
+                                smarter, more profitable trading. Let&apos;s make
                                 every trade count
                             </p>
                         </div>
@@ -167,12 +167,12 @@ export default function Home() {
                     </span>
                     <div className="w-full h-fit gap-[14.78px] md:gap-0 md:w-[858px] md:h-[288.2px] items-center flex flex-col justify-between">
                         <p className="w-[80%] text-[26.2px] leading-[34.05px] md:text-[59.4px] text-center md:leading-[77.22px] font-[500]">
-                            Buy and sell with the lowest fees in the industry
+                            Buy and sell with the lowest fees in the industry
                         </p>
                         <p className="w-[60%] md:w-[693px] text-center text-[8.73px] md:text-[19.8px] leading-[13.1px] md:leading-[29.7px] font-[400]">
                             Maximize your profits and minimize costs as you
                             navigate the crypto. Join us and take control of
-                            your trades with fees that won't weigh you down.
+                            your trades with fees that won&apos;t weigh you down.
                         </p>
 
                         <div className="flex gap-[6px] items-center w-fit h-[24px]">
@@ -215,7 +215,7 @@ export default function Home() {
                                 <p className="text-[9.98px] md:text-[19.8px] text-center md:text-left font-[400] leading-[15.97px] md:leading-[35.64px] w-[80%] md:w-[638px]">
                                     Click the button to join the waitlist and
                                     chat with Swifty on Telegram. Enjoy early
-                                    access, exclusive perks and front- row seats
+                                    access, exclusive perks and front - row seats
                                     to the future of trading.
                                 </p>
                             </div>
@@ -264,7 +264,7 @@ export default function Home() {
                             </p>
                             <p className="opacity-70 text-[10.77px] md:text-[14px] leading-[16.16px] text-center leadind-[21px] md:text-left font-[400]">
                                 Sign up to get the latest in Swifty news,
-                                discounts, and more.
+                                discounts, and more.
                             </p>
                             <div className="z-20 flex justify-center items-center inset-0 bg-gradient-to-r from-[#18C8FF] to-[#933FFE] rounded-[10px] w-[233.93px] md:w-[304px] h-[43.09px] md:h-[56px]">
                                 <div className="bg-[#0F0730] px-[10px] flex items-center justify-between w-[231.93px] md:w-[302px] h-[41.0px] md:h-[54px] rounded-[10px]">
