@@ -3,7 +3,7 @@ import data from "./data/data.json";
 export default function Home() {
     return (
         <div className="w-full h-fit">
-            <div className="relative h-[722px] md:h-[1747px] bg-section1 bg-cover bg-no-repeat">
+            <div className="relative h-[722px] md:h-[1747px] bg-section1 bg-cover bg-center bg-no-repeat">
                 <div className="flex px-[40px] md:px-0 w-screen justify-between items-center fixed z-30 md:w-[89.51%] md:h-[88.19px] md:mx-[5.245%]">
                     <img
                         className="w-[111.97px] h-[24.71px] md:w-[230.58px] md:h-[48.19px] object-contain"
@@ -44,22 +44,22 @@ export default function Home() {
             </div>
 
             <div className="relative h-fit bg-gradient1 bg-cover bg-no-repeat pt-[119px]">
-                <div className="relative h-fit md:h-[676.9px] overflow-clip">
-                    <span className="z-0 absolute top-[42px] w-full h-[426px]">
+                <div className="relative h-fit md:h-[676.9px] ">
+                    <span className="z-0 absolute top-[33.6px] md:top-[42px] w-full h-[426px]">
                         <img
-                            className="w-full h-full object-contain"
+                            className="w-full h-full object-cover md:object-contain"
                             src="/images/lines.png"
                             alt="lines"
                         />
                     </span>
-                    <span className="opacity-75 z-0 absolute top-[29px] left-0 w-[670px] h-[1143px]">
+                    <span className="opacity-60 md:opacity-75 w-[337.68px] h-[576.07px] z-0 absolute bottom-[29px] md:top-[29px] left-0 md:w-[670px] md:h-[1143px]">
                         <img
                             className="w-full h-full object-cover"
                             src="/images/bg-gradient-img.png"
                             alt="lines"
                         />
                     </span>
-                    <span className="z-0 absolute bottom-0 left-[55px] w-[54px] h-[54px]">
+                    <span className="hidden md:block z-0 absolute bottom-0 left-[55px] w-[54px] h-[54px]">
                         <img
                             className="w-full h-full object-cover"
                             src="/images/star-img.png"
@@ -112,27 +112,29 @@ export default function Home() {
                     </div>
                 </div>
 
-                <div className="mx-auto w-full h-fit flex-col flex md:flex-row justify-between mt-20 items-center md:items-end md:h-[598.07px] md:w-[1224px] gap-[40px] md:gap-0">
+                <div className="mx-auto w-full h-fit flex-col flex md:flex-row justify-between mt-0 md:mt-20 items-center md:items-end md:h-[598.07px] md:w-[1224px] gap-[40px] md:gap-0">
                     <div className="flex flex-col gap-[35.2px] items-center md:items-start h-full w-full md:w-[795.3px]">
-                        <img
-                            className="hidden md:block w-[74px] h-[74px] object-contain"
-                            src="/images/star-img2.png"
-                            alt=""
-                        />
+                        <span className="flex justify-start w-[288.8px] md:w-full">
+                            <img
+                                className="w-[36px] md:w-[74px] md:h-[74px] object-contain"
+                                src="/images/star-img2.png"
+                                alt="star"
+                            />
+                        </span>
                         <div className="flex flex-col gap-[18px] relative w-full items-center md:items-start ">
                             <p className="text-[28.07px] w-[80%] text-center md:text-left leading-[36.49px] md:text-[59.4px] font-[500] md:leading-[77.22px]">
                                 Ready to elevate your crypto trading experience?
                             </p>
-                            <p className= "text-[9.36px] leading-[14.97px] w-[80%] md:text-[19.8px] font-[400] text-center md:text-left md:leading-[35.64px] md:w-[638px]">
+                            <p className="text-[9.36px] leading-[14.97px] w-[80%] md:text-[19.8px] font-[400] text-center md:text-left md:leading-[35.64px] md:w-[638px]">
                                 Start your free trial now and unlock a world of
                                 unlimited transactions, intelligent features,
                                 and seamless exchanges. Join us on the path to
-                                smarter, more profitable trading. Let&apos;s make
-                                every trade count
+                                smarter, more profitable trading. Let&apos;s
+                                make every trade count
                             </p>
                         </div>
 
-                        <button className="z-10 px-[54px] py-[24px] h-[64px] items-center justify-center rounded-[8px] bg-[#5B46F6]">
+                        <button className="px-[27.17px] md:text-[18px] text-[9.06px] h-[39.3px] md:h-[64px] md:px-[54px] py-[12.07px] md:py-[24px] rounded-[8px] bg-[#5B46F6]">
                             Get Started
                         </button>
                     </div>
@@ -144,14 +146,14 @@ export default function Home() {
                 </div>
 
                 <div className="relative w-full flex flex-col md:gap-10 gap-[14.78px] justify-center items-center py-[64px] md:py-0 h-fit md:h-[984px] mt-20">
-                    <span className="opacity-20 z-0 absolute top-[-437px] left-0 w-fit md:h-[1482.22px]">
+                    <span className="hidden md:block opacity-20 z-0 absolute top-[-437px] left-0 w-fit md:h-[1482.22px]">
                         <img
                             className="w-full h-full object-contain"
                             src="/images/Looper-3.png"
                             alt="lines"
                         />
                     </span>
-                    <span className=" z-0 absolute top-[-524px] right-0 md:w-[590px] md:h-[1312px]">
+                    <span className="w-[247.8px] h-[551.04px] top-[-220.08px] z-0 absolute md:top-[-524px] right-0 md:w-[590px] md:h-[1312px]">
                         <img
                             className="w-full h-full object-cover"
                             src="/images/bg-gradient-img2.png"
@@ -172,7 +174,8 @@ export default function Home() {
                         <p className="w-[60%] md:w-[693px] text-center text-[8.73px] md:text-[19.8px] leading-[13.1px] md:leading-[29.7px] font-[400]">
                             Maximize your profits and minimize costs as you
                             navigate the crypto. Join us and take control of
-                            your trades with fees that won&apos;t weigh you down.
+                            your trades with fees that won&apos;t weigh you
+                            down.
                         </p>
 
                         <div className="flex gap-[6px] items-center w-fit h-[24px]">
@@ -193,8 +196,8 @@ export default function Home() {
                     />
                 </div>
 
-                <div className="relative z-10 h-fit md:h-[804px] flex w-full bg-[#1D1347] overflow-clip">
-                    <span className="z-0 0pacity-90 absolute top-[-247px] right-0 w-fit h-[945px]">
+                <div className="relative z-10 h-fit md:h-[804px] flex w-full bg-[#1D1347] ">
+                    <span className="hidden z-0 opacity-80 md:0pacity-90 absolute w-[535.2px] h-[567px] left-[121px] top-[-247px] md:right-0 md:w-fit md:h-[945px]">
                         <img
                             className="w-full h-full object-contain"
                             src="/images/bg-gradient-img3.png"
@@ -215,23 +218,23 @@ export default function Home() {
                                 <p className="text-[9.98px] md:text-[19.8px] text-center md:text-left font-[400] leading-[15.97px] md:leading-[35.64px] w-[80%] md:w-[638px]">
                                     Click the button to join the waitlist and
                                     chat with Swifty on Telegram. Enjoy early
-                                    access, exclusive perks and front - row seats
-                                    to the future of trading.
+                                    access, exclusive perks and front - row
+                                    seats to the future of trading.
                                 </p>
                             </div>
 
-                            <button className="px-[54px] py-[24px] h-[64px] items-center justify-center rounded-[8px] bg-[#5B46F6]">
+                            <button className="px-[27.17px] md:text-[18px] text-[9.06px] h-[39.3px] md:h-[64px] md:px-[54px] py-[12.07px] md:py-[24px] rounded-[8px] bg-[#5B46F6]">
                                 Get Started
                             </button>
                         </div>
                         <div className="relative h-[297.94px] md:h-full w-full">
                             <img
-                                className="absolute top-0 md:top-[49.93px] left-[-100px] w-[447.7px] md:w-[888.3px] h-[297.94px] md:h-[591.15px] object-cover"
+                                className="absolute top-0 md:top-[49.93px] left-[-50px] md:left-[-100px] w-full md:w-[888.3px] h-[297.94px] md:h-[591.15px] object-contain"
                                 src="/images/swift2 1.png"
                                 alt=""
                             />
                             <img
-                                className="absolute top-[23.29px] md:top-[96.13px] left-[75px] w-[409.07px] md:w-[811.65px] h-[272.54px] md:h-[540.75px] object-cover"
+                                className="absolute top-[23.29px] right-0 md:top-[96.13px] md:left-[75px] w-[80%] md:w-[811.65px] h-[272.54px] md:h-[540.75px] object-contain"
                                 src="/images/swift1 1.png"
                                 alt=""
                             />
@@ -239,8 +242,8 @@ export default function Home() {
                     </div>
                 </div>
 
-                <footer className="relative bg-[#0F0730] flex items-center justify-between md:justify-center overflow-clip w-full h-[415px] md:h-[556.26px]">
-                    <span className="z-0 absolute bottom-0 left-0 w-fit h-[613.23px]">
+                <footer className="relative bg-[#0F0730] flex items-center justify-between md:justify-center  w-full h-[415px] md:h-[556.26px]">
+                    <span className="z-0 absolute bottom-0 left-0 w-full md:h-[613.23px]">
                         <img
                             className="w-full h-full object-contain"
                             src="/images/bg-gradient-img4.png"
@@ -255,7 +258,7 @@ export default function Home() {
                         />
                     </span>
                     <div className=" mx-auto flex flex-col gap-[20px] md:gap-0 md:flex-row justify-between md:w-[1202px] items-center md:items-start h-fit md:h-[299px]">
-                        <div className="h-full flex items-center md:items-left gap-[20px] md:gap-0 flex-col justify-between w-[292.41px] md:w-[380px]">
+                        <div className="h-full flex items-center md:items-start gap-[20px] md:gap-0 flex-col justify-between w-[292.41px] md:w-[380px]">
                             <p className="opacity-70 text-[10.77px] md:text-[14px] leading-[16.16px] text-center leadind-[21px] md:text-left font-[400]">
                                 Swiftyex Bot is your trusted partner in the
                                 world of currency trading, we redefine the way
