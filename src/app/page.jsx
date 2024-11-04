@@ -4,7 +4,7 @@ export default function Home() {
     return (
         <div className="w-full h-fit">
             <div className="relative h-[722px] md:h-[1747px] w-full bg-section1 bg-cover bg-center bg-no-repeat overflow-x-clip">
-                <div className="flex md:px-0 w-full justify-between items-center absolute z-30 md:w-[89.51%] md:h-[88.19px] md:mx-[5.245%]">
+                <div className="flex md:px-0 w-[88.89%] h-[68px] mx-[5.555%] justify-between items-center fixed z-30 md:w-[89.51%] md:h-[88.19px] md:mx-[5.245%]">
                     <img
                         className="w-[111.97px] h-[24.71px] md:w-[230.58px] md:h-[48.19px] object-contain"
                         src="/images/logo.png"
@@ -22,7 +22,7 @@ export default function Home() {
                     />
                 </div>
 
-                <div className="mx-auto top-[50px] flex items-center flex-col gap-[24.7px] md:gap-[54px] relative md:w-[66.18%] md:top-[261px]">
+                <div className="mx-auto top-[105px] flex items-center flex-col gap-[24.7px] md:gap-[54px] relative md:w-[66.18%] md:top-[261px]">
                     <div className="flex items-center flex-col gap-[8.23px] md:gap-[18px] relative md:w-full ">
                         <p className="text-[32.93px] leading-[38.42px] md:text-[72px] w-[82.58%] md:w-full font-[500] text-center md:leading-[84px]">
                             Step into the future of crypto trading with
