@@ -3,8 +3,8 @@ import data from "./data/data.json";
 export default function Home() {
     return (
         <div className="w-full h-fit">
-            <div className="relative h-[722px] md:h-[1747px] bg-section1 bg-cover bg-center bg-no-repeat">
-                <div className="flex px-[40px] md:px-0 w-screen justify-between items-center fixed z-30 md:w-[89.51%] md:h-[88.19px] md:mx-[5.245%]">
+            <div className="relative h-[722px] md:h-[1747px] w-full bg-section1 bg-cover bg-center bg-no-repeat overflow-x-clip">
+                <div className="flex md:px-0 w-full justify-between items-center absolute z-30 md:w-[89.51%] md:h-[88.19px] md:mx-[5.245%]">
                     <img
                         className="w-[111.97px] h-[24.71px] md:w-[230.58px] md:h-[48.19px] object-contain"
                         src="/images/logo.png"
@@ -43,7 +43,7 @@ export default function Home() {
                 </div>
             </div>
 
-            <div className="relative h-fit bg-gradient1 bg-cover bg-no-repeat pt-[119px]">
+            <div className="relative h-fit bg-gradient1 bg-cover bg-no-repeat pt-[119px] overflow-x-clip">
                 <div className="relative h-fit md:h-[676.9px] ">
                     <span className="z-0 absolute top-[33.6px] md:top-[42px] w-full h-[426px]">
                         <img
@@ -229,12 +229,12 @@ export default function Home() {
                         </div>
                         <div className="relative h-[297.94px] md:h-full w-full">
                             <img
-                                className="absolute top-0 md:top-[49.93px] left-[-50px] md:left-[-100px] w-full md:w-[888.3px] h-[297.94px] md:h-[591.15px] object-contain"
+                                className="absolute top-0 md:top-[49.93px] left-[-50px] md:left-[-100px] w-full md:w-[888.3px] h-[297.94px] md:h-[591.15px] md:object-cover object-contain"
                                 src="/images/swift2 1.png"
                                 alt=""
                             />
                             <img
-                                className="absolute top-[23.29px] right-0 md:top-[96.13px] md:left-[75px] w-[80%] md:w-[811.65px] h-[272.54px] md:h-[540.75px] object-contain"
+                                className="absolute top-[12.29px] right-0 md:top-[96.13px] md:left-[75px] w-[80%] md:w-[811.65px] h-[272.54px] md:h-[540.75px] object-contain"
                                 src="/images/swift1 1.png"
                                 alt=""
                             />
@@ -243,7 +243,7 @@ export default function Home() {
                 </div>
 
                 <footer className="relative bg-[#0F0730] flex items-center justify-between md:justify-center  w-full h-[415px] md:h-[556.26px]">
-                    <span className="z-0 absolute bottom-0 left-0 w-full md:h-[613.23px]">
+                    <span className="z-0 absolute bottom-0 left-0 w-full md:w-fit md:h-[613.23px]">
                         <img
                             className="w-full h-full object-contain"
                             src="/images/bg-gradient-img4.png"
